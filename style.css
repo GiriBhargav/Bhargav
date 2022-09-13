@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #0a0a0af8;
+    color: rgb(248, 242, 242);
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/05.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    right: 10%;
+}
+.logo{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 10%;
+    margin: 0%;
+    padding-top: 2%;
+}
+span{
+    color: red;
+}
+.sss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sss span{
+    color: orange;
+}
+.sss img{
+    display: flex;
+}
+.sss img{
+    width: 400px;
+    height: 200px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+} 
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 100%;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 0%;
+}
+.header-text h1 span{
+    color: red;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: 0.2s ease;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 1%;
+    justify-content: center;
+    font-weight: bold;
+    display: block;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:red;
+    color: white;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    
+    text-decoration: none;
+}
+/* about section */
+.about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10%;
+    padding-top: 5%;
+}
+.main{
+    display: flex;
+}
+.main img{
+    width: 330px;
+    height: 400px;
+    padding-right; 8%;
+}
+.headings h1{
+    font-size: 3rem;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+.intro h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.intro p{
+    text-align: justify;
+    line-height: 30px;
+}
+.education{
+    width: 100%;
+    padding: 100px 0px;
+    margin-bottom: 5%;
+}
+.title h2{
+    font-size: 3rem;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    margin-top: -10%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color:rgb(9, 8, 8);
+    color: rgb(241, 8, 8);
+    box-shadow: 0 0 5px rgb(237, 6, 6), 0 0 10px white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.card{
+    height: 320px;
+    width: 300px;
+    padding: 20px 35px;
+    background: rgb(9, 9, 9);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+}
+.card h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.cbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+.ccard{
+    height: 320px;
+    width: 600px;
+    padding: 20px 35px;
+    background: rgb(7, 6, 6);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.contact {
+    width: 100%;
+    padding: 100px 0px;
+    border: 1px solid white;
+}
+.con h2{
+    font-size: 3rem;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    margin-top: %;
+}
+.ccard h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.ccard h4{
+    font-size: 18px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+.card h6{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.ccard:hover{
+    cursor: pointer;
+    background-color:rgb(9, 8, 8);
+    box-shadow: 0 0 5px rgb(237, 6, 6), 0 0 10px white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ccard h5{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.ccard h6{
+    font-size: 18px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccard i{
+    font-size: 50px;
+    align-items: center;
+    color: rgb(252, 248, 248);
+    border-radius: 1000px;
+    margin-top: 5%;
+
+}
+.ccard i:hover{
+    cursor: pointer;
+    background: rgb(8, 7, 7);
+    color: rgb(240, 9, 9);
+    transition: 0.5s;
+   
+}
+.icons i{
+    font-size: 50px;
+    align-items: center;
+    color: rgb(252, 248, 248);
+    border-radius: 20px;
+    padding-top: 1%;
+}
+.icons i:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.5s;
+}
+.social activities{
+    width: 100%;
+    padding: 100px 0px;
+    margin-bottom: 5%;
+}
+.sa {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+.sae img{
+    display: inline-flex;
+}
+.sae img{
+    display: inline-flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 400px;
+    height: 250px;
+}
+.hi{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+.hi h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.hi p{
+    text-align: justify;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 0px;
+    margin-bottom: 5%;
+}
+.d h2{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.button{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: 0.2s ease;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 1%;
+    justify-content: center;
+    font-weight: bold;
+    display: inline-flex;
+}
+.button:hover{
+    cursor: pointer;
+    background-color:red;
+    color: white;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    
+    text-decoration: none;
+}
