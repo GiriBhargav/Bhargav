@@ -106,7 +106,6 @@ nav ul li a:hover::after{
     padding: 1%;
     justify-content: center;
     font-weight: bold;
-    display: block;
 }
 .btn:hover{
     cursor: pointer;
