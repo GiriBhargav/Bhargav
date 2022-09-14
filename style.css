@@ -103,7 +103,7 @@ nav ul li a:hover::after{
     transition: 0.2s ease;
     text-decoration: none;
     border-radius: 30px;
-    padding-top: 5px;
+    padding-top: 6px;
     justify-content: center;
     font-weight: bold;
 }
